@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "social-network-api",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonnyRiver/social-network-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonnyRiver/social-network-api/issues"
+  },
+  "homepage": "https://github.com/JonnyRiver/social-network-api#readme"
+}
