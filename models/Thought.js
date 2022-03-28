@@ -10,12 +10,12 @@ const ReactionsSchema = new Schema(
     },
     reactionsBody: {
       type: String,
-      required: true,
+      required: false,
       maxlength: 280,
     },
     username: {
       type: String,
-      require: true,
+      require: false,
     },
     createdAt: {
       type: Date,
@@ -27,6 +27,7 @@ const ReactionsSchema = new Schema(
   {
     toJSON: {
       virtuals: true,
+      getters: true,
     },
     id: false,
   }
@@ -48,7 +49,7 @@ const ThoughtSchema = new Schema(
     },
     username: {
       type: String,
-      required: true,
+      required: false,
     },
     reactions: [ReactionsSchema],
   },
@@ -61,7 +62,7 @@ const ThoughtSchema = new Schema(
   }
 );
 
-ThoughtSchema.virtual("commentCount").get(function () {
+ThoughtSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
 });
 
