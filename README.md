@@ -20,7 +20,8 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 # Video Links
 
-<iframe src="https://drive.google.com/file/d/1AqBIhcMPJenwztf3oQMcp0mVIyJ1ZE9u/preview" width="640" height="480"></iframe>
+![Untitled_ Mar 27, 2022 10_42 PM](https://user-images.githubusercontent.com/92954684/160318231-1a0b7555-e441-44ed-b0f8-2112c1732575.gif)
+
 
 # Installation
 
